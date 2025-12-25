@@ -123,5 +123,6 @@ def analyze_pcap(pcap_file):
         print("\nNo suspicious TCP activity detected.")
 
 if __name__ == "__main__":
-    pcap_file = "sample_traffic.pcap"  
+    # pcap_file = "sample_traffic.pcap"  
+    pcap_file = "test.pcap"  
     analyze_pcap(pcap_file)
